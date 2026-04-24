@@ -9,8 +9,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
 public class CheesyBlockStateProvider extends BlockStateProvider {
-    public CheesyBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, CreateCheesyDoesIt.MOD_ID, exFileHelper);
+    public CheesyBlockStateProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+        super(output, CreateCheesyDoesIt.MOD_ID, existingFileHelper);
     }
 
     @Override
