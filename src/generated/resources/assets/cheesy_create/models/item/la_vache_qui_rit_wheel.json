@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cheesy_create:item/la_vache_qui_rit_wheel"
+  }
+}

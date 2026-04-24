@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cheesy_create:item/blue_cow_cheese_curds"
+  }
+}
