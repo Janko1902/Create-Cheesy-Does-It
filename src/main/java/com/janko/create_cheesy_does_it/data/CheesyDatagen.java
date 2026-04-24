@@ -20,7 +20,9 @@ public class CheesyDatagen {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+
         generator.addProvider(event.includeClient(), new CheesyItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new CheesyBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new CheesyLangProvider(packOutput, "en_us"));
     }
 }
