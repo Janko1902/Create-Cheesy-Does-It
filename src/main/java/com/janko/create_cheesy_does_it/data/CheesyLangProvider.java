@@ -45,12 +45,15 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.WHEY_BUCKET.get(), "Whey Bucket");
 
         add(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_CURDS.get(), "Activated Orange Cow Cheese Curds");
+        add(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_CURDS.get(), "Black and Blue Strider Cheese Curds");
         add(CheesyItems.BLACK_STRIDER_CHEESE_CURDS.get(), "Black Strider Cheese Curds");
         add(CheesyItems.BLUE_COW_CHEESE_CURDS.get(), "Blue Cow Cheese Curds");
         add(CheesyItems.BLUE_SHEEP_CHEESE_CURDS.get(), "Blue Sheep Cheese Curds");
+        add(CheesyItems.BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS.get(), "Brined Black and Blue Strider Cheese Curds");
         add(CheesyItems.BRINED_BLACK_STRIDER_CHEESE_CURDS.get(), "Brined Black Strider Cheese Curds");
         add(CheesyItems.BRINED_BLUE_SHEEP_CHEESE_CURDS.get(), "Brined Blue Sheep Cheese Curds");
         add(CheesyItems.BRINED_ORANGE_COW_CHEESE_CURDS.get(), "Brined Orange Cow Cheese Curds");
+        add(CheesyItems.BRINED_STRIDER_CHEESE_CURDS.get(), "Brined Strider Cheese Curds");
         add(CheesyItems.BUFFALO_CHEESE_CURDS.get(), "Buffalo Cheese Curds");
         add(CheesyItems.COW_CHEESE_CURDS.get(), "Cow Cheese Curds");
         add(CheesyItems.CREAMY_CHEESE_CURDS.get(), "Creamy Cheese Curds");
@@ -64,6 +67,7 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.WHEY_CURDS.get(), "Whey Curds");
 
         add(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK.get(), "Activated Coagulated Orange Cow Milk");
+        add(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK.get(), "Coagulated Black and Blue Strider Milk");
         add(CheesyItems.COAGULATED_BLACK_STRIDER_MILK.get(), "Coagulated Black Strider Milk");
         add(CheesyItems.COAGULATED_BLUE_COW_MILK.get(), "Coagulated Blue Cow Milk");
         add(CheesyItems.COAGULATED_BLUE_SHEEP_MILK.get(), "Coagulated Blue Sheep Milk");
@@ -75,9 +79,11 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.COAGULATED_SHEEP_MILK.get(), "Coagulated Sheep Milk");
         add(CheesyItems.COAGULATED_STRIDER_MILK.get(), "Coagulated Strider Milk");
         add(CheesyItems.COAGULATED_YAK_MILK.get(), "Coagulated Yak Milk");
+
         add(CheesyItems.COAGULATED_JACK_MIX.get(), "Coagulated Jack Mix");
 
         add(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_WHEEL.get(), "Activated Orange Cow Cheese Wheel");
+        add(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_WHEEL.get(), "Black and Blue Strider Cheese Wheel");
         add(CheesyItems.BLACK_STRIDER_CHEESE_WHEEL.get(), "Black Strider Cheese Wheel");
         add(CheesyItems.BLUE_COW_CHEESE_WHEEL.get(), "Blue Cow Cheese Wheel");
         add(CheesyItems.BLUE_SHEEP_CHEESE_WHEEL.get(), "Blue Sheep Cheese Wheel");

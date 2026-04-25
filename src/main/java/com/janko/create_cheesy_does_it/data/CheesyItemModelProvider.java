@@ -44,12 +44,15 @@ public class CheesyItemModelProvider extends ItemModelProvider {
         simpleItem(CheesyItems.WHEY_BUCKET);
 
         simpleItem(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_CURDS);
+        simpleItem(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_CURDS);
         simpleItem(CheesyItems.BLACK_STRIDER_CHEESE_CURDS);
         simpleItem(CheesyItems.BLUE_COW_CHEESE_CURDS);
         simpleItem(CheesyItems.BLUE_SHEEP_CHEESE_CURDS);
+        simpleItem(CheesyItems.BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS);
         simpleItem(CheesyItems.BRINED_BLACK_STRIDER_CHEESE_CURDS);
         simpleItem(CheesyItems.BRINED_BLUE_SHEEP_CHEESE_CURDS);
         simpleItem(CheesyItems.BRINED_ORANGE_COW_CHEESE_CURDS);
+        simpleItem(CheesyItems.BRINED_STRIDER_CHEESE_CURDS);
         simpleItem(CheesyItems.BUFFALO_CHEESE_CURDS);
         simpleItem(CheesyItems.COW_CHEESE_CURDS);
         simpleItem(CheesyItems.CREAMY_CHEESE_CURDS);
@@ -64,6 +67,7 @@ public class CheesyItemModelProvider extends ItemModelProvider {
         simpleItem(CheesyItems.WHEY_CURDS);
 
         simpleItem(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK);
+        simpleItem(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK);
         simpleItem(CheesyItems.COAGULATED_BLACK_STRIDER_MILK);
         simpleItem(CheesyItems.COAGULATED_BLUE_COW_MILK);
         simpleItem(CheesyItems.COAGULATED_BLUE_SHEEP_MILK);
@@ -79,6 +83,7 @@ public class CheesyItemModelProvider extends ItemModelProvider {
         simpleItem(CheesyItems.COAGULATED_JACK_MIX);
 
         simpleItem(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_WHEEL);
+        simpleItem(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_WHEEL);
         simpleItem(CheesyItems.BLACK_STRIDER_CHEESE_WHEEL);
         simpleItem(CheesyItems.BLUE_COW_CHEESE_WHEEL);
         simpleItem(CheesyItems.BLUE_SHEEP_CHEESE_WHEEL);

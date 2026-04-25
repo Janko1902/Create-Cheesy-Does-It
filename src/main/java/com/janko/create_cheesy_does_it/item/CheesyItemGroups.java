@@ -46,13 +46,16 @@ public class CheesyItemGroups {
                         entries.accept(CheesyItems.WHEY_BUCKET.get());
 
                         entries.accept(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_CURDS.get());
+                        entries.accept(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BLACK_STRIDER_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BLUE_COW_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BLUE_SHEEP_CHEESE_CURDS.get());
-                        entries.accept(CheesyItems.BRINED_BLACK_STRIDER_CHEESE_CURDS.get());
+                        entries.accept(CheesyItems.BLACK_STRIDER_CHEESE_CURDS.get());
+                        entries.accept(CheesyItems.BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BRINED_BLUE_SHEEP_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BRINED_ORANGE_COW_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.BUFFALO_CHEESE_CURDS.get());
+                        entries.accept(CheesyItems.BRINED_STRIDER_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.COW_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.CREAMY_CHEESE_CURDS.get());
                         entries.accept(CheesyItems.GOAT_CHEESE_CURDS.get());
@@ -66,6 +69,7 @@ public class CheesyItemGroups {
                         entries.accept(CheesyItems.WHEY_CURDS.get());
 
                         entries.accept(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK.get());
+                        entries.accept(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK.get());
                         entries.accept(CheesyItems.COAGULATED_BLACK_STRIDER_MILK.get());
                         entries.accept(CheesyItems.COAGULATED_BLUE_COW_MILK.get());
                         entries.accept(CheesyItems.COAGULATED_BLUE_SHEEP_MILK.get());
@@ -81,6 +85,7 @@ public class CheesyItemGroups {
                         entries.accept(CheesyItems.COAGULATED_JACK_MIX.get());
 
                         entries.accept(CheesyItems.ACTIVATED_ORANGE_COW_CHEESE_WHEEL.get());
+                        entries.accept(CheesyItems.BLACK_AND_BLUE_STRIDER_CHEESE_WHEEL.get());
                         entries.accept(CheesyItems.BLACK_STRIDER_CHEESE_WHEEL.get());
                         entries.accept(CheesyItems.BLUE_COW_CHEESE_WHEEL.get());
                         entries.accept(CheesyItems.BLUE_SHEEP_CHEESE_WHEEL.get());

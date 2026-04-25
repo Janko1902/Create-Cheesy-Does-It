@@ -44,12 +44,15 @@ public class CheesyItems {
     public static final RegistryObject<Item> WHEY_BUCKET = registerItem(() -> new Item(new Item.Properties()), "whey_bucket");
 
     public static final RegistryObject<Item> ACTIVATED_ORANGE_COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "activated_orange_cow_cheese_curds");
+    public static final RegistryObject<Item> BLACK_AND_BLUE_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "black_and_blue_strider_cheese_curds");
     public static final RegistryObject<Item> BLACK_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "black_strider_cheese_curds");
     public static final RegistryObject<Item> BLUE_COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "blue_cow_cheese_curds");
     public static final RegistryObject<Item> BLUE_SHEEP_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "blue_sheep_cheese_curds");
+    public static final RegistryObject<Item> BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brained_black_and_blue_strider_cheese_curds");
     public static final RegistryObject<Item> BRINED_BLACK_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_black_strider_cheese_curds");
     public static final RegistryObject<Item> BRINED_BLUE_SHEEP_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_blue_sheep_cheese_curds");
     public static final RegistryObject<Item> BRINED_ORANGE_COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_orange_cow_cheese_curds");
+    public static final RegistryObject<Item> BRINED_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_strider_cheese_curds");
     public static final RegistryObject<Item> BUFFALO_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "buffalo_cheese_curds");
     public static final RegistryObject<Item> COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "cow_cheese_curds");
     public static final RegistryObject<Item> CREAMY_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "creamy_cheese_curds");
@@ -64,6 +67,7 @@ public class CheesyItems {
     public static final RegistryObject<Item> WHEY_CURDS = registerItem(() -> new Item(new Item.Properties()), "whey_curds");
 
     public static final RegistryObject<Item> ACTIVATED_COAGULATED_ORANGE_COW_MILK = registerItem(() -> new Item(new Item.Properties()), "activated_coagulated_orange_cow_milk");
+    public static final RegistryObject<Item> COAGULATED_BLACK_AND_BLUE_STRIDER_MILK = registerItem(() -> new Item(new Item.Properties()), "coagulated_black_and_blue_strider_milk");
     public static final RegistryObject<Item> COAGULATED_BLACK_STRIDER_MILK = registerItem(() -> new Item(new Item.Properties()), "coagulated_black_strider_milk");
     public static final RegistryObject<Item> COAGULATED_BLUE_COW_MILK = registerItem(() -> new Item(new Item.Properties()), "coagulated_blue_cow_milk");
     public static final RegistryObject<Item> COAGULATED_BLUE_SHEEP_MILK = registerItem(() -> new Item(new Item.Properties()), "coagulated_blue_sheep_milk");
@@ -79,6 +83,7 @@ public class CheesyItems {
     public static final RegistryObject<Item> COAGULATED_JACK_MIX = registerItem(() -> new Item(new Item.Properties()), "coagulated_jack_mix");
 
     public static final RegistryObject<Item> ACTIVATED_ORANGE_COW_CHEESE_WHEEL = registerItem(() -> new Item(new Item.Properties()), "activated_orange_cow_cheese_wheel");
+    public static final RegistryObject<Item> BLACK_AND_BLUE_STRIDER_CHEESE_WHEEL = registerItem(() -> new Item(new Item.Properties()), "black_and_blue_strider_cheese_wheel");
     public static final RegistryObject<Item> BLACK_STRIDER_CHEESE_WHEEL = registerItem(() -> new Item(new Item.Properties()), "black_strider_cheese_wheel");
     public static final RegistryObject<Item> BLUE_COW_CHEESE_WHEEL = registerItem(() -> new Item(new Item.Properties()), "blue_cow_cheese_wheel");
     public static final RegistryObject<Item> BLUE_SHEEP_CHEESE_WHEEL = registerItem(() -> new Item(new Item.Properties()), "blue_sheep_cheese_wheel");
