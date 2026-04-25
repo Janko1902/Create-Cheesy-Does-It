@@ -1,7 +1,6 @@
 package com.janko.create_cheesy_does_it;
 
 import com.janko.create_cheesy_does_it.block.CheesyBlocks;
-import com.janko.create_cheesy_does_it.creative.CheesyCreativeSections;
 import com.janko.create_cheesy_does_it.item.CheesyItemGroups;
 import com.janko.create_cheesy_does_it.item.CheesyItems;
 import com.mojang.logging.LogUtils;
@@ -27,6 +26,5 @@ public class CreateCheesyDoesIt {
         CheesyItems.registerCheesyItems(modEventBus);
         CheesyItemGroups.registerCheesyItemGroups(modEventBus);
         CheesyBlocks.registerCheesyBlocks(modEventBus);
-
     }
 }
