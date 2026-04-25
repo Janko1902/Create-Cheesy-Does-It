@@ -48,7 +48,7 @@ public class CheesyItems {
     public static final RegistryObject<Item> BLACK_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "black_strider_cheese_curds");
     public static final RegistryObject<Item> BLUE_COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "blue_cow_cheese_curds");
     public static final RegistryObject<Item> BLUE_SHEEP_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "blue_sheep_cheese_curds");
-    public static final RegistryObject<Item> BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brained_black_and_blue_strider_cheese_curds");
+    public static final RegistryObject<Item> BRINED_BLACK_AND_BLUE_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_black_and_blue_strider_cheese_curds");
     public static final RegistryObject<Item> BRINED_BLACK_STRIDER_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_black_strider_cheese_curds");
     public static final RegistryObject<Item> BRINED_BLUE_SHEEP_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_blue_sheep_cheese_curds");
     public static final RegistryObject<Item> BRINED_ORANGE_COW_CHEESE_CURDS = registerItem(() -> new Item(new Item.Properties()), "brined_orange_cow_cheese_curds");
