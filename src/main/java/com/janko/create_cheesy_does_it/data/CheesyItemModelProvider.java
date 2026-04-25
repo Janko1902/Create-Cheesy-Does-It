@@ -126,6 +126,7 @@ public class CheesyItemModelProvider extends ItemModelProvider {
         simpleItem(CheesyItems.CROTTIN_DE_CHAVIGNOL);
         simpleItem(CheesyItems.EDAM);
         simpleItem(CheesyItems.EMMENTALER);
+        simpleItem(CheesyItems.ENCHANTED_GOLDEN_CHEESE);
         simpleItem(CheesyItems.EPOISSES_DE_BOURGOGNE);
         simpleItem(CheesyItems.FETA);
         simpleItem(CheesyItems.FROMAGE_FRAIS);

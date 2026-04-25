@@ -128,6 +128,7 @@ public class CheesyItemGroups {
                         entries.accept(CheesyItems.CROTTIN_DE_CHAVIGNOL.get());
                         entries.accept(CheesyItems.EDAM.get());
                         entries.accept(CheesyItems.EMMENTALER.get());
+                        entries.accept(CheesyItems.ENCHANTED_GOLDEN_CHEESE.get());
                         entries.accept(CheesyItems.EPOISSES_DE_BOURGOGNE.get());
                         entries.accept(CheesyItems.FETA.get());
                         entries.accept(CheesyItems.FROMAGE_FRAIS.get());

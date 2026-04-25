@@ -125,6 +125,7 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.CROTTIN_DE_CHAVIGNOL.get(), "Crottin de Chavignol");
         add(CheesyItems.EDAM.get(), "Edam");
         add(CheesyItems.EMMENTALER.get(), "Emmentaler");
+        add(CheesyItems.ENCHANTED_GOLDEN_CHEESE.get(), "Enchanted Golden Cheese");
         add(CheesyItems.EPOISSES_DE_BOURGOGNE.get(), "Époisses de Bourgogne");
         add(CheesyItems.FETA.get(), "Feta");
         add(CheesyItems.FROMAGE_FRAIS.get(), "Fromage Frais");

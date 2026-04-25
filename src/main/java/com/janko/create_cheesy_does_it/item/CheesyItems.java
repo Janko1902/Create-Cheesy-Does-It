@@ -1,7 +1,7 @@
 package com.janko.create_cheesy_does_it.item;
 
 import com.janko.create_cheesy_does_it.CreateCheesyDoesIt;
-import com.janko.create_cheesy_does_it.helper.CheesyHelpers;
+import com.janko.create_cheesy_does_it.item.custom.EnchantedGoldenCheeseItem;
 import net.minecraft.world.item.BottleItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.MilkBucketItem;
@@ -126,6 +126,7 @@ public class CheesyItems {
     public static final RegistryObject<Item> CROTTIN_DE_CHAVIGNOL = registerItem(() -> new Item(new Item.Properties()), "crottin_de_chavignol");
     public static final RegistryObject<Item> EDAM = registerItem(() -> new Item(new Item.Properties()), "edam");
     public static final RegistryObject<Item> EMMENTALER = registerItem(() -> new Item(new Item.Properties()), "emmentaler");
+    public static final RegistryObject<Item> ENCHANTED_GOLDEN_CHEESE = registerItem(() -> new EnchantedGoldenCheeseItem(new Item.Properties()), "enchanted_golden_cheese");
     public static final RegistryObject<Item> EPOISSES_DE_BOURGOGNE = registerItem(() -> new Item(new Item.Properties()), "epoisses_de_bourgogne");
     public static final RegistryObject<Item> FETA = registerItem(() -> new Item(new Item.Properties()), "feta");
     public static final RegistryObject<Item> FROMAGE_FRAIS = registerItem(() -> new Item(new Item.Properties()), "fromage_frais");
