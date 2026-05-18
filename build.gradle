@@ -127,6 +127,8 @@ repositories {
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
     maven { url = "https://maven.ithundxr.dev/mirror" } // Registrate
     maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort
+
+    maven { url "https://maven.ryanliptak.com/" } // AppleSkin
 }
 
 dependencies {
@@ -159,6 +161,8 @@ dependencies {
     implementation(fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}"))
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.1"))
     implementation("io.github.llamalad7:mixinextras-forge:0.4.1")
+    compileOnly fg.deobf("squeek.appleskin:appleskin-forge:mc${minecraft_version}-${appleskin_version}:api")
+    runtimeOnly fg.deobf("squeek.appleskin:appleskin-forge:mc${minecraft_version}-${appleskin_version}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
