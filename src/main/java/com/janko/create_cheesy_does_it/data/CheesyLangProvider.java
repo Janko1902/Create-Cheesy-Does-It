@@ -5,10 +5,10 @@ import com.janko.create_cheesy_does_it.block.CheesyBlocks;
 import com.janko.create_cheesy_does_it.item.CheesyItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Items;
-import net.minecraftforge.common.data.LanguageProvider;
+import net.neoforged.neoforge.common.data.LanguageProvider;
 
 public class CheesyLangProvider extends LanguageProvider {
-    public CheesyLangProvider(PackOutput output,  String locale) {
+    public CheesyLangProvider(PackOutput output, String locale) {
         super(output, CreateCheesyDoesIt.MOD_ID, locale);
     }
 

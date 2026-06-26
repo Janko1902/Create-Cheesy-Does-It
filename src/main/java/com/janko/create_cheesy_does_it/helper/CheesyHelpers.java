@@ -7,14 +7,14 @@ public class CheesyHelpers {
     public static FoodProperties food(int nutrition, float saturationMod) {
         return new FoodProperties.Builder()
                 .nutrition(nutrition)
-                .saturationMod(saturationMod)
+                .saturationModifier(saturationMod)
                 .build();
     }
 
     public static FoodProperties food(int nutrition, float saturationMod, boolean isFastFood) {
         return new FoodProperties.Builder()
                 .nutrition(nutrition)
-                .saturationMod(saturationMod)
+                .saturationModifier(saturationMod)
                 .fast()
                 .build();
     }
@@ -22,7 +22,7 @@ public class CheesyHelpers {
     public static FoodProperties food(int nutrition, float saturationMod, MobEffectInstance effect, float probability) {
         return new FoodProperties.Builder()
                 .nutrition(nutrition)
-                .saturationMod(saturationMod)
+                .saturationModifier(saturationMod)
                 .effect(() -> effect, probability)
                 .build();
     }

@@ -6,17 +6,18 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
 
 public class CheesyItemGroups {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateCheesyDoesIt.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> CHEESY_ITEM_GROUP = CREATIVE_MODE_TABS.register("cheese",
+    public static final Supplier<CreativeModeTab> CHEESY_ITEM_GROUP = CREATIVE_MODE_TABS.register("cheese",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(CheesyItems.GOAT_MILK_BOTTLE.get()))
+                    .icon(() -> new ItemStack(CheesyItems.GOLDEN_CHEESE.get()))
                     .title(Component.translatable("itemGroup." + CreateCheesyDoesIt.MOD_ID))
                     .displayItems((params, entries) -> {
                         entries.accept(CheesyItems.GEOTRICHUM_CANDIDUM.get());

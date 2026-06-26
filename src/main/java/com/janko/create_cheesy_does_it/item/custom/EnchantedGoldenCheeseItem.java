@@ -4,8 +4,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 public class EnchantedGoldenCheeseItem extends Item {
-    public EnchantedGoldenCheeseItem(Properties p_41383_) {
-        super(p_41383_);
+    public EnchantedGoldenCheeseItem(Properties properties) {
+        super(properties);
     }
 
     @Override
