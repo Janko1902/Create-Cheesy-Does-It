@@ -121,7 +121,7 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.CAMEMBERT.get(), "Camembert");
         add(CheesyItems.CASU_MARZU.get(), "Casu Marzu");
         add(CheesyItems.CECIL.get(), "Çeçil");
-        add(CheesyItems.CHEDDAR.get(), "Cheddar");
+        add(CheesyItems.CHEDDAR.get(), "Cheddar Ingot");
         add(CheesyItems.CHESHIRE.get(), "Cheshire");
         add(CheesyItems.COLBY_JACK.get(), "Colby Jack");
         add(CheesyItems.COMTE.get(), "Comté");
@@ -185,7 +185,7 @@ public class CheesyLangProvider extends LanguageProvider {
         add(CheesyItems.YOGURT.get(), "Yogurt");
 
         add(CheesyBlocks.CHEDDAR_BLOCK.get(), "Block of Cheddar");
-        add(CheesyBlocks.CHEDDAR_ORE.get(), "Cheedar Ore");
+        add(CheesyBlocks.CHEDDAR_ORE.get(), "Cheddar Ore");
         add(CheesyBlocks.DEEPSLATE_CHEDDAR_ORE.get(), "Deepslate Cheddar Ore");
 
         add(CheesyBlocks.SWISS_BLOCK.get(), "Block of Swiss");

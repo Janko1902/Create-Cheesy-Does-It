@@ -1,6 +1,6 @@
 {
   "block.cheesy_create.cheddar_block": "Block of Cheddar",
-  "block.cheesy_create.cheddar_ore": "Cheedar Ore",
+  "block.cheesy_create.cheddar_ore": "Cheddar Ore",
   "block.cheesy_create.deepslate_cheddar_ore": "Deepslate Cheddar Ore",
   "block.cheesy_create.swiss_block": "Block of Swiss",
   "item.cheesy_create.activated_coagulated_orange_cow_milk": "Activated Coagulated Orange Cow Milk",
@@ -35,7 +35,7 @@
   "item.cheesy_create.camembert": "Camembert",
   "item.cheesy_create.casu_marzu": "Casu Marzu",
   "item.cheesy_create.cecil": "Çeçil",
-  "item.cheesy_create.cheddar": "Cheddar",
+  "item.cheesy_create.cheddar": "Cheddar Ingot",
   "item.cheesy_create.cheddar_sheet": "Cheddar Sheet",
   "item.cheesy_create.cheshire": "Cheshire",
   "item.cheesy_create.coagulated_black_and_blue_strider_milk": "Coagulated Black and Blue Strider Milk",
