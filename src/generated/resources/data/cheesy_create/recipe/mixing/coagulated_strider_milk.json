@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cheesy_create:rennet_bottle"
+    },
+    {
+      "item": "cheesy_create:strider_milk_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:coagulated_strider_milk"
+    }
+  ]
+}

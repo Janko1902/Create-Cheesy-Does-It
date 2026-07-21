@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cheesy_create:emmentaler"
+    },
+    {
+      "item": "cheesy_create:comte"
+    },
+    {
+      "item": "cheesy_create:cream"
+    },
+    {
+      "item": "cheesy_create:gouda"
+    },
+    {
+      "item": "cheesy_create:fromage_frais"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:la_vache_qui_rit_wheel"
+    }
+  ]
+}

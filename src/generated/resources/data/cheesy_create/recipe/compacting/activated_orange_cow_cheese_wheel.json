@@ -1,0 +1,46 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:activated_orange_cow_cheese_curds"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:activated_orange_cow_cheese_wheel"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ package com.janko.create_cheesy_does_it;
 import com.janko.create_cheesy_does_it.block.CheesyBlocks;
 import com.janko.create_cheesy_does_it.item.CheesyItemGroups;
 import com.janko.create_cheesy_does_it.item.CheesyItems;
+import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,5 +29,9 @@ public class CreateCheesyDoesIt {
 
     private void commonSetup(FMLCommonSetupEvent event) {
 
+    }
+
+    public static ResourceLocation asResource(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
     }
 }

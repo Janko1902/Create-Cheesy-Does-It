@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cheesy_create:yogurt"
+    },
+    {
+      "item": "cheesy_create:rennet_bottle"
+    },
+    {
+      "item": "cheesy_create:annato"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:activated_coagulated_orange_cow_milk"
+    }
+  ]
+}

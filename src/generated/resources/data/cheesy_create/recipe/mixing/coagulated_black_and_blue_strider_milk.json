@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cheesy_create:rennet_bottle"
+    },
+    {
+      "item": "cheesy_create:penicillium_camemberti"
+    },
+    {
+      "item": "cheesy_create:strider_milk_bucket"
+    },
+    {
+      "item": "cheesy_create:mucorem_nigrum"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:coagulated_black_and_blue_strider_milk"
+    }
+  ]
+}

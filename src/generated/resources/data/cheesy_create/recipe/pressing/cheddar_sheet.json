@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cheesy_create:cheddar"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:cheddar_sheet"
+    }
+  ]
+}

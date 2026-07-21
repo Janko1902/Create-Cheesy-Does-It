@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "cheesy_create:orange_cow_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:cow_cheese_curds"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "cheesy_create:coagulated_jack_mix"
+    }
+  ]
+}

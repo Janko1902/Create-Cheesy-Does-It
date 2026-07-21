@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cheesy_create:goat_cheese_wheel"
+    },
+    {
+      "item": "cheesy_create:geotrichum_candidum"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:goat_cheese_wheel_geotrichum_candidum"
+    }
+  ]
+}

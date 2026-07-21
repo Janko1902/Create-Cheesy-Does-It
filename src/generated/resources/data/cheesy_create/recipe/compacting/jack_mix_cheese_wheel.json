@@ -1,0 +1,46 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:jack_mix_cheese_curds"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:jack_mix_cheese_wheel"
+    }
+  ]
+}

@@ -26,4 +26,10 @@ public class CheesyHelpers {
                 .effect(() -> effect, probability)
                 .build();
     }
+
+    public static <T> void repeat(int count, java.util.function.Consumer<T> action, T value) {
+        for (int i = 0; i < count; i++) {
+            action.accept(value);
+        }
+    }
 }

@@ -1,6 +1,8 @@
 package com.janko.create_cheesy_does_it.data;
 
 import com.janko.create_cheesy_does_it.CreateCheesyDoesIt;
+import com.janko.create_cheesy_does_it.data.recipe.CheesyRecipeProvider;
+import com.janko.create_cheesy_does_it.data.recipe.CheesyStandardRecipeGen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -23,6 +25,11 @@ public class CheesyDatagen {
         generator.addProvider(event.includeClient(), new CheesyItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new CheesyBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new CheesyLangProvider(packOutput, "en_us"));
+
+        generator.addProvider(event.includeServer(), new CheesyStandardRecipeGen(packOutput, lookupProvider));
+        if (event.includeServer()) {
+            CheesyRecipeProvider.registerAllProcessing(generator, packOutput, lookupProvider);
+        }
 
     }
 }

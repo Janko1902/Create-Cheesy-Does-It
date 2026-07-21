@@ -1,0 +1,46 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_strider_cheese_curds"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:strider_cheese_wheel"
+    }
+  ]
+}
