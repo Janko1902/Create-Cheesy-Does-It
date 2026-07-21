@@ -16,6 +16,6 @@ public class CheesyPressingRecipeGen extends PressingRecipeGen {
 
     GeneratedRecipe
 
-    CHEDDAR_SHEET = create(CheesyItems.CHEDDAR_SHEET::get, b -> b.require(CheesyItems.CHEDDAR)
+    CHEDDAR_SHEET = create(CheesyItems.CHEDDAR_SHEET.getId(), b -> b.require(CheesyItems.CHEDDAR)
             .output(CheesyItems.CHEDDAR_SHEET));
 }
