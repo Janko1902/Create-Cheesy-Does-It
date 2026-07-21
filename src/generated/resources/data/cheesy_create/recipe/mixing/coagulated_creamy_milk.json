@@ -1,26 +1,22 @@
 {
   "type": "create:mixing",
-  "heat_requirement": "heated",
   "ingredients": [
     {
-      "item": "cheesy_create:yogurt"
+      "item": "cheesy_create:cream"
     },
     {
       "item": "cheesy_create:rennet_bottle"
     },
     {
-      "item": "cheesy_create:annato"
-    },
-    {
       "type": "neoforge:tag",
-      "amount": 250,
+      "amount": 1000,
       "tag": "c:milk"
     }
   ],
   "results": [
     {
       "count": 4,
-      "id": "cheesy_create:activated_coagulated_orange_cow_milk"
+      "id": "cheesy_create:coagulated_creamy_milk"
     }
   ]
 }

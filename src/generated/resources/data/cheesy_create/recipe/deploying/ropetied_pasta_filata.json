@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cheesy_create:pasta_filata_ball"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:ropetied_pasta_filata"
+    }
+  ]
+}

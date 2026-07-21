@@ -20,30 +20,30 @@ public class CheesyMixingRecipeGen extends MixingRecipeGen {
 
     GeneratedRecipe
 
-    COAGULATED_BLACK_AND_BLUE_STRIDER_MILK = create(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK::get, b -> b.require(CheesyItems.RENNET_BOTTLE)
+    COAGULATED_BLACK_AND_BLUE_STRIDER_MILK = create(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK.getId(), b -> b.require(CheesyItems.RENNET_BOTTLE)
             .require(CheesyItems.PENICILLIUM_CAMEMBERTI)
             .require(CheesyItems.STRIDER_MILK_BUCKET)
             .require(CheesyItems.MUCOREM_NUGRUM)
             .output(CheesyItems.COAGULATED_BLACK_AND_BLUE_STRIDER_MILK)
             .requiresHeat(HeatCondition.HEATED)),
 
-    COAGULATED_STRIDER_MILK = create(CheesyItems.COAGULATED_STRIDER_MILK::get, b -> b.require(CheesyItems.RENNET_BOTTLE)
+    COAGULATED_STRIDER_MILK = create(CheesyItems.COAGULATED_STRIDER_MILK.getId(), b -> b.require(CheesyItems.RENNET_BOTTLE)
             .require(CheesyItems.STRIDER_MILK_BUCKET)
             .output(CheesyItems.COAGULATED_STRIDER_MILK)
             .requiresHeat(HeatCondition.HEATED)),
 
-    COAGULATED_JACK_MIX = create(CheesyItems.COAGULATED_JACK_MIX::get, b -> b.require(Items.ORANGE_DYE)
+    COAGULATED_JACK_MIX = create(CheesyItems.COAGULATED_JACK_MIX.getId(), b -> b.require(Items.ORANGE_DYE)
             .require(CheesyItems.ORANGE_COW_CHEESE_CURDS)
             .require(CheesyItems.COW_CHEESE_CURDS)
             .require(Fluids.WATER, 250)
             .output(CheesyItems.COAGULATED_JACK_MIX, 2)),
 
-    MOLTEN_SHEEP_CHEESE_CURDS = create(CheesyItems.MOLTEN_SHEEP_CHEESE_CURDS::get, b -> b.require(CheesyItems.SHEEP_CHEESE_CURDS)
+    MOLTEN_SHEEP_CHEESE_CURDS = create(CheesyItems.MOLTEN_SHEEP_CHEESE_CURDS.getId(), b -> b.require(CheesyItems.SHEEP_CHEESE_CURDS)
             .require(Fluids.WATER, 250)
             .output(CheesyItems.MOLTEN_SHEEP_CHEESE_CURDS)
             .requiresHeat(HeatCondition.HEATED)),
 
-    LA_VACHE_QUI_RIT_WHEEL = create(CheesyItems.LA_VACHE_QUI_RIT_WHEEL::get, b -> b.require(CheesyItems.EMMENTALER)
+    LA_VACHE_QUI_RIT_WHEEL = create(CheesyItems.LA_VACHE_QUI_RIT_WHEEL.getId(), b -> b.require(CheesyItems.EMMENTALER)
             .require(CheesyItems.COMTE)
             .require(CheesyItems.CREAM)
             .require(CheesyItems.GOUDA)
@@ -51,29 +51,29 @@ public class CheesyMixingRecipeGen extends MixingRecipeGen {
             .output(CheesyItems.LA_VACHE_QUI_RIT_WHEEL)
             .requiresHeat(HeatCondition.HEATED)),
 
-    ACTIVATED_COAGULATED_ORANGE_COW_MILK = create(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK::get, b -> b.require(CheesyItems.YOGURT)
+    ACTIVATED_COAGULATED_ORANGE_COW_MILK = create(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK.getId(), b -> b.require(CheesyItems.YOGURT)
             .require(Tags.Fluids.MILK, 250)
             .require(CheesyItems.RENNET_BOTTLE)
             .require(CheesyItems.ANNATO)
             .output(CheesyItems.ACTIVATED_COAGULATED_ORANGE_COW_MILK, 4)
             .requiresHeat(HeatCondition.HEATED)),
 
-    COAGULATED_BLACK_STRIDER_MILK = create(CheesyItems.COAGULATED_BLACK_STRIDER_MILK::get, b -> b.require(CheesyItems.RENNET_BOTTLE)
+    COAGULATED_BLACK_STRIDER_MILK = create(CheesyItems.COAGULATED_BLACK_STRIDER_MILK.getId(), b -> b.require(CheesyItems.RENNET_BOTTLE)
             .require(CheesyItems.STRIDER_MILK_BUCKET)
             .require(CheesyItems.MUCOREM_NUGRUM)
             .output(CheesyItems.COAGULATED_BLACK_STRIDER_MILK, 4)),
 
-    COAGULATED_ORANGE_COW_MILK = create(CheesyItems.COAGULATED_ORANGE_COW_MILK::get, b -> b.require(CheesyItems.ANNATO)
+    COAGULATED_ORANGE_COW_MILK = create(CheesyItems.COAGULATED_ORANGE_COW_MILK.getId(), b -> b.require(CheesyItems.ANNATO)
             .require(Tags.Fluids.MILK, 1000)
             .require(CheesyItems.RENNET_BOTTLE)
             .output(CheesyItems.COAGULATED_ORANGE_COW_MILK, 4)),
 
-    COAGULATED_BLUE_SHEEP_MILK = create(CheesyItems.COAGULATED_BLUE_SHEEP_MILK::get, b -> b.require(CheesyItems.PENICILLIUM_RIQUEFORTI)
+    COAGULATED_BLUE_SHEEP_MILK = create(CheesyItems.COAGULATED_BLUE_SHEEP_MILK.getId(), b -> b.require(CheesyItems.PENICILLIUM_RIQUEFORTI)
             .require(CheesyItems.SHEEP_MILK_BUCKET)
             .require(CheesyItems.RENNET_BOTTLE)
             .output(CheesyItems.COAGULATED_BLUE_SHEEP_MILK, 4)),
 
-    COAGULATED_CREAMY_COW_MILK = create(CheesyItems.COAGULATED_CREAMY_COW_MILK::get, b -> b.require(CheesyItems.CREAM)
+    COAGULATED_CREAMY_COW_MILK = create(CheesyItems.COAGULATED_CREAMY_COW_MILK.getId(), b -> b.require(CheesyItems.CREAM)
             .require(Tags.Fluids.MILK, 1000)
             .require(CheesyItems.RENNET_BOTTLE)
             .output(CheesyItems.COAGULATED_CREAMY_COW_MILK, 4));

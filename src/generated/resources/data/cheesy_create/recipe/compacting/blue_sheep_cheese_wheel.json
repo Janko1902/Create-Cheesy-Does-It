@@ -1,0 +1,46 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    },
+    {
+      "item": "cheesy_create:brined_blue_sheep_cheese_curds"
+    }
+  ],
+  "results": [
+    {
+      "id": "cheesy_create:blue_sheep_cheese_wheel"
+    }
+  ]
+}
