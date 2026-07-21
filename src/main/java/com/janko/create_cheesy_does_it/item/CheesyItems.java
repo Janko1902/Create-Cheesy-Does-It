@@ -128,7 +128,7 @@ public class CheesyItems {
     public static final DeferredItem<Item> COLBY_JACK = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "colby_jack");
     public static final DeferredItem<Item> COMTE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "comte");
     public static final DeferredItem<Item> COW_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(5, 0.3F))), "cow_cheese");
-    public static final DeferredItem<Item> CREAMY_CHEESE_BALLS = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 1111111.8F))), "creamy_cheese_balls");
+    public static final DeferredItem<Item> CREAMY_CHEESE_BALLS = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(4, 1.25F))), "creamy_cheese_balls");
     public static final DeferredItem<Item> CRIMSON_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 0.38F))), "crimson_cheese");
     public static final DeferredItem<Item> CROTTIN_DE_CHAVIGNOL = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "crottin_de_chavignol");
     public static final DeferredItem<Item> EDAM = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "edam");
@@ -146,7 +146,7 @@ public class CheesyItems {
     public static final DeferredItem<Item> GOLDEN_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 1.0F, new MobEffectInstance(MobEffects.REGENERATION, 600), 1))), "golden_cheese");
     public static final DeferredItem<Item> GRUYERE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "gruyere");
     public static final DeferredItem<Item> LA_VACHE_QUI_RIT = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(2, 0.5F))), "la_vache_qui_rit");
-    public static final DeferredItem<Item> LOADED_GOAT_SKIN = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 11111111.8F))), "loaded_goat_skin");
+    public static final DeferredItem<Item> LOADED_GOAT_SKIN = registerItem(() -> new Item(new Item.Properties()), "loaded_goat_skin");
     public static final DeferredItem<Item> MANCHEGO = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "manchego");
     public static final DeferredItem<Item> MAROILLES = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "maroilles");
     public static final DeferredItem<Item> MASCARPONE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(3, 0.33F))), "mascarpone");
@@ -154,14 +154,14 @@ public class CheesyItems {
     public static final DeferredItem<Item> MOZZARELLA = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(4, 0.38F))), "mozzarella");
     public static final DeferredItem<Item> MUNSTER = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "munster");
     public static final DeferredItem<Item> PARMIGIANO_REGGIANO = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(10, 0.4F))), "parmigiano_reggiano");
-    public static final DeferredItem<Item> PASTA_FILATA = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 111111.2F))), "pasta_filata");
-    public static final DeferredItem<Item> PASTA_FILATA_BALL = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 111111.2F))), "pasta_filata_ball");
+    public static final DeferredItem<Item> PASTA_FILATA = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "pasta_filata");
+    public static final DeferredItem<Item> PASTA_FILATA_BALL = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(10, 0.4F))), "pasta_filata_ball");
     public static final DeferredItem<Item> PECORINO_ROMANO = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 0.38F))), "pecorino_romano");
     public static final DeferredItem<Item> PROVOLONE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "provolone");
     public static final DeferredItem<Item> RACLETTE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "raclette");
     public static final DeferredItem<Item> REBLOCHON = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "reblochon");
     public static final DeferredItem<Item> RICOTTA = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(4, 0.25F))), "ricotta");
-    public static final DeferredItem<Item> ROPETIED_PASTA_FILATA = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 111111.2F))), "ropetied_pasta_filata");
+    public static final DeferredItem<Item> ROPETIED_PASTA_FILATA = registerItem(() -> new Item(new Item.Properties()), "ropetied_pasta_filata");
     public static final DeferredItem<Item> ROQUEFORT = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(10, 0.4F))), "roquefort");
     public static final DeferredItem<Item> SHEEP_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(5, 0.3F))), "sheep_cheese");
     public static final DeferredItem<Item> SHROOMY_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 0.38F))), "shroomy_cheese");
@@ -169,7 +169,7 @@ public class CheesyItems {
     public static final DeferredItem<Item> STRIDER_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "strider_cheese");
     public static final DeferredItem<Item> SWISS = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "swiss");
     public static final DeferredItem<Item> TALEGGIO = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "taleggio");
-    public static final DeferredItem<Item> THREADED_SHEEP_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 11111111.2F))), "threaded_sheep_cheese");
+    public static final DeferredItem<Item> THREADED_SHEEP_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(4, 0.5F))), "threaded_sheep_cheese");
     public static final DeferredItem<Item> TOMME_DE_SAVOIE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(6, 0.33F))), "tomme_de_savoie");
     public static final DeferredItem<Item> TULUK = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 0.38F))), "tuluk");
     public static final DeferredItem<Item> WARPED_CHEESE = registerItem(() -> new Item(new Item.Properties().food(CheesyHelpers.food(8, 0.38F))), "warped_cheese");
